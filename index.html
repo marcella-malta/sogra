@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Para você</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- TELA 1: aparece primeiro -->
+  <div id="tela1" class="tela">
+    <h1>Oi, sogrinha 🌷</h1>
+    <p>
+      Preparei algo especial para você, como forma de agradecimento!
+    </p>
+    <button onclick="mostrarSurpresa()">Clique aqui</button>
+  </div>
+
+  <!-- TELA 2: começa escondida -->
+  <div id="tela2" class="tela escondida">
+
+    <!-- CARROSSEL -->
+    <div class="carrossel">
+
+      <!-- A primeira foto leva "ativo" -->
+      <div class="slide ativo">
+        <img src="foto1.jpeg" alt="Foto 1">
+        <p class="legenda">Você é uma pessoa iluminada e querida por todos ao seu redor.</p>
+      </div>
+
+      <div class="slide">
+        <img src="foto2.jpeg" alt="Foto 2">
+        <p class="legenda">Seu coração gigante transforma a vida de quem tem a sorte de conhecer você.</p>
+      </div>
+
+      <div class="slide">
+        <img src="foto3.jpeg" alt="Foto 3">
+        <p class="legenda">Você espalha amor, carinho e cuidado por onde passa.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto4.jpeg" alt="Foto 4">
+        <p class="legenda">Seu jeito doce faz o mundo ficar mais leve e bonito.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto5.jpeg" alt="Foto 5">
+        <p class="legenda">Você é forte, generosa e inspira as pessoas todos os dias.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto6.jpeg" alt="Foto 6">
+        <p class="legenda">Suas mãos criam beleza, mas seu coração cria ainda mais amor.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto7.jpeg" alt="Foto 7">
+        <p class="legenda">Você tem o dom de fazer as pessoas se sentirem especiais.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto8.jpeg" alt="Foto 8">
+        <p class="legenda">Sua presença é um presente na vida de quem ama você.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto9.jpeg" alt="Foto 9">
+        <p class="legenda">Você merece receber todo o carinho que oferece a nós.</p>
+      </div>
+	  
+	  <div class="slide">
+        <img src="foto10.jpeg" alt="Foto 10">
+        <p class="legenda">Você é nossa sogrinha querida, uma mãe maravilhosa,<br>
+		uma vó excepcional e um dos maiores presentes da nossa vida. ❤️ ✨</p>
+      </div>
+	  
+
+      <div class="controles">
+        <button onclick="mudarSlide(-1)">&#10094; Anterior</button>
+        <span id="contador">1 / 3</span>
+        <button onclick="mudarSlide(1)">Próxima &#10095;</button>
+      </div>
+    </div>
+
+    <!-- ESPAÇO PARA O TEXTO PRINCIPAL -->
+    <div class="mensagem">
+      <p>
+        Minha sogrinha amada, minha segunda mãe!! 💕
+      </p>
+      <p>
+        Como sou grata por ter você na minha vida.<br>
+		Existem pessoas que deixam tudo mais leve só por estarem por perto, e você é exatamente assim.<br>
+		Sua doçura acolhe, seu carinho conforta e seu jeito de cuidar faz toda a diferença.
+	  </p>
+	  <p>
+	Você tem um dom lindo de cuidar das pessoas com amor, paciência e compreensão.<br>
+	Em cada gesto, em cada palavra, dá para sentir o tamanho do seu coração.<br>
+	Você tem um jeito especial de fazer com que todo mundo se sinta amado e importante.
+	 </p>
+	 <p>
+	 Tudo o que você faz tem um toque único. Suas mãos carregam talento, dedicação e muito amor.<br>
+	 Mas o mais bonito não é só o que você cria, e sim a forma como transforma momentos simples<br>
+	 em lembranças especiais que ficam guardadas para sempre.
+	 </p>
+	 <p>
+	 Quero que você nunca esqueça o quanto é amada e admirada.<br>
+	 Talvez você nem imagine o impacto que tem na vida das pessoas, mas saiba que seu carinho,<br>
+	 sua bondade e sua alegria deixam marcas lindas em quem tem a sorte de conviver com você.
+	</p>
+	<p>
+	Seu coração enorme e seu jeito de ser fazem de você alguém muito especial.<br>
+	Sua presença traz conforto, suas palavras trazem calma e seu amor faz a diferença na vida de muita gente.
+	</p>
+	<p>
+	Sogrinha, somos muito felizes por ter você em nossas vidas e muito gratos por tudo o que você é.
+	Obrigada por tanto carinho, por tantos ensinamentos e <br>
+	por nos mostrar todos os dias a beleza que existe em cuidar de quem a gente ama.
+	</p>
+	<p>
+	Você é única, muito querida e merece todo o amor, reconhecimento e felicidade deste mundo.<br>
+	Obrigada por TUDO!<br>
+	Te amo demais!💕
+      </p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
